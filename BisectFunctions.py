@@ -25,7 +25,7 @@ nums_insort_left = nums.copy()
 bisect.insort_left(nums_insort_left, 4)
 print(f'List after inserting with insort_left: {nums_insort_left}')  # prints [1, 3, 4, 4, 4, 6, 7]
 
-# Using insort_right
+
 nums_insort_right = nums.copy()
 bisect.insort_right(nums_insort_right, 4)
 print(f'List after inserting with insort_right: {nums_insort_right}')  # prints [1, 3, 4, 4, 4, 6, 7]
