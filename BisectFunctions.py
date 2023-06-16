@@ -13,7 +13,7 @@ print(f'Position to insert using bisect_left: {pos_left}')  # prints 2
 
 # Using bisect_right
 pos_right = bisect.bisect_right(nums, 4)
-print(f'Position to insert using bisect_right: {pos_right}')  # prints 5
+print(f'Position to insert using bisect_right: {pos_right}') 
 
 # Using insort
 nums_insort = nums.copy()  # copy the list to avoid modifying the original
