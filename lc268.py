@@ -13,5 +13,3 @@ class Solution:
 
             if nums[i] != exp:
                 return exp
-
-# sss?
